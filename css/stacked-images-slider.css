@@ -1,0 +1,53 @@
+#stacked-images-slider{
+		width: 90vw;
+		display: block;
+		position: relative;
+		left: 5vw;
+		background-color: rgba(0,0,0,0.1);
+	}
+
+	.stacked-image{
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.si0{
+		left: 50%;
+		max-width: 15%;
+		z-index: 1;
+	}
+
+	.si3{
+		left: 50%;
+		max-width: 30%;
+		z-index: 6;
+	}
+
+	.si2{
+		left: 30%;
+		max-width: 25%;
+		z-index: 5;
+	}
+
+	.si4{
+		left: 70%;
+		max-width: 25%;
+		z-index: 4;
+	}
+
+	.si1{
+		left: 10%;
+		max-width: 20%;
+		z-index: 3;
+	}
+
+	.si5{
+		left: 90%;
+		max-width: 20%;
+		z-index: 2;
+	}
+
+	*{
+		transition: all ease 1s;
+	}
