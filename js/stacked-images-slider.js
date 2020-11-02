@@ -17,7 +17,7 @@ function swap(){
 	for(itr = 0; itr < stackedImagesLength; itr++){
 		switch (itr){
 			case start:
-				stackedImages[itr].className = "stacked-image si1";
+				stackedImages[itr].className = "stacked-image si0";
 				break;
 			case (start+1)%stackedImagesLength:
 				stackedImages[itr].className = "stacked-image si2";
@@ -29,7 +29,7 @@ function swap(){
 				stackedImages[itr].className = "stacked-image si4";
 				break;
 			case (start+4)%stackedImagesLength:
-				stackedImages[itr].className = "stacked-image si5";
+				stackedImages[itr].className = "stacked-image si0";
 				break;
 			default:
 				stackedImages[itr].className = "stacked-image si0";
